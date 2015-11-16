@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using System;
 
 namespace sdgtdfgfd
 {
@@ -19,7 +20,7 @@ namespace sdgtdfgfd
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button>(Resource.Id.myButton);
-			
+			Console.WriteLine ("parmendra");
 			button.Click += delegate {
 				button.Text = string.Format("{0} clicks!", count++);
 			};
