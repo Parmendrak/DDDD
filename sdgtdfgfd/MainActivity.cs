@@ -21,7 +21,7 @@ namespace sdgtdfgfd
 			// and attach an event to it
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
-			Console.WriteLine ("Xamarin Studio");
+			Console.WriteLine ("XamarinP");
 
 			button.Click += delegate {
 				button.Text = string.Format("{0} clicks!", count++);
